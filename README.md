@@ -27,10 +27,10 @@ Sorts are permitted by: self color, opponent color, self ELO rating, opponent EL
 	self=black (or just 'black')
 	opponent=white
 	self>=1600 (or just '>=1600')
-opponent<1200
-self=won (or just 'won')
-opponent=lost
-opponent=Ilovechessxoxoxo
+	opponent<1200
+	self=won (or just 'won')
+	opponent=lost
+	opponent=Ilovechessxoxoxo
 
 
 
