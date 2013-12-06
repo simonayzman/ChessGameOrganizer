@@ -20,13 +20,13 @@ Here, self will be the player included in the 'Player.txt' file. It isn't even n
 
 There will be a custom folder created with this specific sort in the 'Sorts' folder. The name will also be altered in the form:
 
-	<WhitePlayerName> (<WhitePlayerELORating) vs. <BlackPlayerName> (<BlackPlayerELORating) [<MonthName> <Day>, <Year>].pgn
+	<WhitePlayerName> (<WhitePlayerELORating>) vs. <BlackPlayerName> (<BlackPlayerELORating>) [<MonthName> <Day>, <Year>].pgn       
 
 Sorts are permitted by: self color, opponent color, self ELO rating, opponent ELO rating, self result, opponent result, and opponent name. Note that the result of 'draw' can arbitrarily given a side. The following are legitimate commands:
 
-self=black (or just 'black')
-opponent=white
-self>=1600 (or just '>=1600')
+	self=black (or just 'black')
+	opponent=white
+	self>=1600 (or just '>=1600')
 opponent<1200
 self=won (or just 'won')
 opponent=lost
